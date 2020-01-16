@@ -18,7 +18,8 @@ First install the required packages:
 
 .. code-block:: console
 
-   $ pip install aiohttp aiortc opencv-python websockets
+   $ apt install python3-opencv
+   $ pip install aiohttp aiortc websockets
 
 The `aiohttp` and `websockets` packages are only needed if using AppRTC for
 signaling.
